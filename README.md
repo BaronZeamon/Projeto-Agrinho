@@ -8,3 +8,5 @@ PO projeto “Agrinho: Além de tudo, acessível”, foi pensado com o intuito d
 
 Há varias imagens e códigos no CSS para enfeitar e estilizar a página.
 Há também botões que te levam aos tópicos mais importantes da página.
+
+Algumas Imagens foram usadas e modificadas dos responsáveis dos direitos das imagens do Agrinho.
