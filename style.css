@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+    to right,
+    rgb(206, 255, 194) 0,
+    rgb(255, 255, 255) 15%,
+    rgb(255, 255, 255) 85%,
+    rgb(206, 255, 194) 100%
+  );
+}
+
+header {
+    background: linear-gradient(rgb(253, 255, 142) 0, rgba(18, 153, 25, 0.89) 100%); 
+    padding: 2% 0;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-right: 8%;
+   
+}
+
+ul.menu li {
+    margin: 0 3%;
+}
+
+ul.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul.menu li.logo {
+    margin: 0 5%;
+}
+
+ul.menu li.logo img {
+    height: 80px;
+}
+
+.slider {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.slide {
+    flex: 1 0 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 2%;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+section .conteudo {
+    display: flex;
+    align-items: center;
+}
+
+
+section img {
+    max-width: 60%;
+    margin-right: 16%;
+}
+
+section .texto {
+    max-width: 50%;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+
+.imagem_gibi{
+    filter: brightness(120%);
+    position: relative;
+    left: 150%;
+    animation: Aparecer ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.imagem{
+    animation: Aparecer ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    text-indent: 2em;
+    text-align: justify;
+    padding: 1%;
+   
+}
+.texto2{
+    position: absolute;
+    left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    padding: 1%;
+    
+   
+    
+    text-align: justify;
+}
+
+#gibi2{
+    padding: 3%;
+    display: flex;
+    background: linear-gradient( rgba(120, 255, 127, 0.89) 0%,rgb(210, 255, 210) 50%, rgba(120, 255, 127, 0.89) 100%); 
+   
+}
+@keyframes Aparecer {
+    0% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.rodape{
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(rgb(62, 255, 62) 0%, rgba(18, 153, 25, 0.89) 100%); 
+}
+
+
